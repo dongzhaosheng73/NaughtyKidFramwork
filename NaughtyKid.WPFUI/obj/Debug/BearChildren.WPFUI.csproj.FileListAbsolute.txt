@@ -1,0 +1,17 @@
+D:\Git\BearChildren\BearChildren.WPFUI\bin\Debug\BearChildren.WPFUI.dll.config
+D:\Git\BearChildren\BearChildren.WPFUI\bin\Debug\BearChildren.WPFUI.dll
+D:\Git\BearChildren\BearChildren.WPFUI\bin\Debug\BearChildren.WPFUI.pdb
+D:\Git\BearChildren\BearChildren.WPFUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Git\BearChildren\BearChildren.WPFUI\obj\Debug\BearChildren.WPFUI_MarkupCompile.cache
+D:\Git\BearChildren\BearChildren.WPFUI\obj\Debug\BearChildren.WPFUI_MarkupCompile.lref
+D:\Git\BearChildren\BearChildren.WPFUI\obj\Debug\BearChildren.WPFUI.g.resources
+D:\Git\BearChildren\BearChildren.WPFUI\obj\Debug\BearChildren.WPFUI.dll
+D:\Git\BearChildren\BearChildren.WPFUI\obj\Debug\BearChildren.WPFUI.pdb
+D:\Git\BearChildren\BearChildren.WPFUI\obj\Debug\BearChildren.WPFUI.Resources.resources
+D:\Git\BearChildren\BearChildren.WPFUI\obj\Debug\BearChildren.WPFUI.csproj.GenerateResource.Cache
+D:\Git\BearChildren\BearChildren.WPFUI\bin\Debug\BearChildrenMVVM.dll
+D:\Git\BearChildren\BearChildren.WPFUI\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Git\BearChildren\BearChildren.WPFUI\bin\Debug\BearChildrenMVVM.pdb
+D:\Git\BearChildren\BearChildren.WPFUI\obj\Debug\BearChildren.WPFUI.csprojResolveAssemblyReference.cache
+D:\Git\BearChildren\BearChildren.WPFUI\obj\Debug\Themes\WildKidWindows.baml
+D:\Git\BearChildren\BearChildren.WPFUI\obj\Debug\Assets\WildKidButton.baml

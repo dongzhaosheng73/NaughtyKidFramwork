@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaughtyKid", "NaughtyKid\NaughtyKid.csproj", "{04CACE9C-198B-4F6F-9905-278AC2C5A1A4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{834A7383-71E0-409E-A065-F8A7C9156478} = {834A7383-71E0-409E-A065-F8A7C9156478}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaughtyKid.WPFUI", "NaughtyKid.WPFUI\NaughtyKid.WPFUI.csproj", "{6C5917C4-8153-4B20-83B0-730105113CB6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04CACE9C-198B-4F6F-9905-278AC2C5A1A4} = {04CACE9C-198B-4F6F-9905-278AC2C5A1A4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaughtyKidMVVM", "NaughtyKidMVVM\NaughtyKidMVVM.csproj", "{834A7383-71E0-409E-A065-F8A7C9156478}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04CACE9C-198B-4F6F-9905-278AC2C5A1A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04CACE9C-198B-4F6F-9905-278AC2C5A1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04CACE9C-198B-4F6F-9905-278AC2C5A1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04CACE9C-198B-4F6F-9905-278AC2C5A1A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C5917C4-8153-4B20-83B0-730105113CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C5917C4-8153-4B20-83B0-730105113CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C5917C4-8153-4B20-83B0-730105113CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C5917C4-8153-4B20-83B0-730105113CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{834A7383-71E0-409E-A065-F8A7C9156478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834A7383-71E0-409E-A065-F8A7C9156478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834A7383-71E0-409E-A065-F8A7C9156478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834A7383-71E0-409E-A065-F8A7C9156478}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

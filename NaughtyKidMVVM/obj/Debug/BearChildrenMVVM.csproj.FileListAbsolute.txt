@@ -1,0 +1,15 @@
+D:\Git\BearChildren\BearChildrenMVVM\bin\Debug\BearChildrenMVVM.dll
+D:\Git\BearChildren\BearChildrenMVVM\bin\Debug\BearChildrenMVVM.pdb
+D:\Git\BearChildren\BearChildrenMVVM\bin\Debug\System.Windows.Interactivity.dll
+D:\Git\BearChildren\BearChildrenMVVM\bin\Debug\System.Windows.Interactivity.xml
+D:\Git\BearChildren\BearChildrenMVVM\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\Git\BearChildren\BearChildrenMVVM\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\Git\BearChildren\BearChildrenMVVM\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\Git\BearChildren\BearChildrenMVVM\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\Git\BearChildren\BearChildrenMVVM\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\Git\BearChildren\BearChildrenMVVM\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\Git\BearChildren\BearChildrenMVVM\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\Git\BearChildren\BearChildrenMVVM\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Git\BearChildren\BearChildrenMVVM\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Git\BearChildren\BearChildrenMVVM\obj\Debug\BearChildrenMVVM.dll
+D:\Git\BearChildren\BearChildrenMVVM\obj\Debug\BearChildrenMVVM.pdb

@@ -1,0 +1,6 @@
+D:\Git\BearChildren\BearChildren.WPFUI\bin\Release\BearChildren.WPFUI.dll.config
+D:\Git\BearChildren\BearChildren.WPFUI\bin\Release\BearChildren.WPFUI.dll
+D:\Git\BearChildren\BearChildren.WPFUI\bin\Release\BearChildren.WPFUI.pdb
+D:\Git\BearChildren\BearChildren.WPFUI\obj\Release\BearChildren.WPFUI.dll
+D:\Git\BearChildren\BearChildren.WPFUI\obj\Release\BearChildren.WPFUI.pdb
+D:\Git\BearChildren\BearChildren.WPFUI\obj\Release\BearChildren.WPFUI.g.resources

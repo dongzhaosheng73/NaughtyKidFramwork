@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{04CACE9C-198B-4F6F-9905-278AC2C5A1A4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NaughtyKid</RootNamespace>
+    <AssemblyName>NaughtyKid</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Release\NaughtyKid.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="FodyWeavers.xml" />
+    <Content Include="Scripts\json-serialize.js" />
+    <Content Include="Scripts\json-serialize.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigInfo\ConfigInfoServices.cs" />
+    <Compile Include="ConfigInfo\IConfigInfoServices.cs" />
+    <Compile Include="DataBase\OracleHepler.cs" />
+    <Compile Include="BaseClass\RestDataCommon.cs" />
+    <Compile Include="DataBase\SqlHelper.cs" />
+    <Compile Include="DevicesControl\AudioPlayHelper.cs" />
+    <Compile Include="DevicesControl\PrintDeviceHelper.cs" />
+    <Compile Include="DevicesControl\PrintDeviceStruct.cs" />
+    <Compile Include="DevicesControl\UsbDeviceHelper.cs" />
+    <Compile Include="Error\ErrorHelper.cs" />
+    <Compile Include="BaseClass\PropertyChangedBase.cs" />
+    <Compile Include="Extension\BitmapImageExtension.cs" />
+    <Compile Include="Extension\DirectoryInfoExtend.cs" />
+    <Compile Include="Extension\TypeExtend.cs" />
+    <Compile Include="Extension\UIElementExtend.cs" />
+    <Compile Include="Framework\HttpHelper\AItem.cs" />
+    <Compile Include="Framework\HttpHelper\AType.cs" />
+    <Compile Include="Framework\HttpHelper\EncodingHelper.cs" />
+    <Compile Include="Framework\HttpHelper\ExecJsHelper.cs" />
+    <Compile Include="Framework\HttpHelper\FileDownload.cs" />
+    <Compile Include="Framework\HttpHelper\HtmlHelper.cs" />
+    <Compile Include="Framework\HttpHelper\HttpCookieHelper.cs" />
+    <Compile Include="Framework\HttpHelper\HttpHelper.cs" />
+    <Compile Include="Framework\HttpHelper\HttphelperBase.cs" />
+    <Compile Include="Framework\HttpHelper\HttpHelperBll.cs" />
+    <Compile Include="Framework\HttpHelper\HttpItem.cs" />
+    <Compile Include="Framework\HttpHelper\HttpResult.cs" />
+    <Compile Include="Framework\HttpHelper\ImageHelper.cs" />
+    <Compile Include="Framework\HttpHelper\ImgItem.cs" />
+    <Compile Include="Framework\HttpHelper\JsonHelper.cs" />
+    <Compile Include="Framework\HttpHelper\MD5Helper.cs" />
+    <Compile Include="Framework\HttpHelper\PostDataType.cs" />
+    <Compile Include="Framework\HttpHelper\RegexString.cs" />
+    <Compile Include="Framework\HttpHelper\ResultCookieType.cs" />
+    <Compile Include="Framework\HttpHelper\ResultType.cs" />
+    <Compile Include="Hook\GlobalEventProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Hook\HookManager.Callbacks.cs" />
+    <Compile Include="Hook\HookManager.cs" />
+    <Compile Include="Hook\HookManager.Structures.cs" />
+    <Compile Include="Hook\HookManager.Windows.cs" />
+    <Compile Include="Hook\MouseEventExtArgs.cs" />
+    <Compile Include="Framework\HttpHelper\HttpUrlHelper.cs" />
+    <Compile Include="Interface\IPrint.cs" />
+    <Compile Include="Interface\ISerializable.cs" />
+    <Compile Include="Model\IConfigInfo.cs" />
+    <Compile Include="Model\SerializableDictionary.cs" />
+    <Compile Include="MyEnum\ByteMeasurementEum.cs" />
+    <Compile Include="MyEnum\ExifTags.cs" />
+    <Compile Include="Extension\ByteExtend.cs" />
+    <Compile Include="Extension\DecimalExtend.cs" />
+    <Compile Include="Extension\StringExtend.cs" />
+    <Compile Include="Model\ExifTagsData.cs" />
+    <Compile Include="Model\TextProperty.cs" />
+    <Compile Include="MyEnum\PrinterEnumFlags.cs" />
+    <Compile Include="MyEnum\PrinterStatus.cs" />
+    <Compile Include="MyEnum\SendMessageTimeoutFlags.cs" />
+    <Compile Include="MyTools\BarCodeHelper.cs" />
+    <Compile Include="MyTools\EnumHelper.cs" />
+    <Compile Include="MyTools\FileEncodingHelper.cs" />
+    <Compile Include="MyTools\MathHelper.cs" />
+    <Compile Include="MyTools\EncryptDecodeHelper.cs" />
+    <Compile Include="MyTools\ExifReaderHepler.cs" />
+    <Compile Include="MyTools\ImageStruct.cs" />
+    <Compile Include="MyTools\ImageHepler.cs" />
+    <Compile Include="MyTools\InIConfingHelper.cs" />
+    <Compile Include="MyTools\IntputOutputHepler.cs" />
+    <Compile Include="MyTools\LogHepler.cs" />
+    <Compile Include="MyTools\MemoryHepler.cs" />
+    <Compile Include="MyTools\PageHepler.cs" />
+    <Compile Include="MyTools\QRCodeHelper.cs" />
+    <Compile Include="MyTools\SerializationHelper.cs" />
+    <Compile Include="MyTools\TextReadWriteHelper.cs" />
+    <Compile Include="MyTools\XmlConfingHelper.cs" />
+    <Compile Include="Print\PrintImageHelper.cs" />
+    <Compile Include="Print\PrintPaperHelper.cs" />
+    <Compile Include="Print\PrintStruct.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WatchFilesServices\IWatchFilesServices.cs" />
+    <Compile Include="WatchFilesServices\WatchFilesServices.cs" />
+    <Compile Include="WinAPI\WinApiHepler.cs" />
+    <Compile Include="WPF\ElementInquiry.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib, Version=1.0.0.22, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BarcodeLib.1.0.0.22\lib\net20\BarcodeLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ExifLib, Version=1.7.0.0, Culture=neutral, PublicKeyToken=30284005913968db, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExifLib.1.7.0.0\lib\net40\ExifLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.QRCode, Version=1.0.4778.30637, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThoughtWorks.QRCode.1.1.0\lib\ThoughtWorks.QRCode.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="zxing, Version=1.0.4727.18517, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.2.1.1\lib\net20\zxing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
